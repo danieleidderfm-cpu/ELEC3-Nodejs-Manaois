@@ -24,7 +24,7 @@ and middleware.
 
 | Activity | Description | Folder |
 |---|---|---|
-| N1 - Project Setup and Package Management | Initialize a Node.js project and manage npm packages. | Pending |
+| N1 - Project Setup and Package Management | Initialize a Node.js project, install npm packages, and configure npm scripts. | [View Activity](set1/n1-setup/) |
 | N2 - Modular Calculator | Perform mathematical operations using custom modules. | Pending |
 | N3 - File Manager | Manage text files using fs and path modules. | Pending |
 
