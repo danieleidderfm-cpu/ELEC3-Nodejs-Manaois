@@ -26,7 +26,7 @@ and middleware.
 |---|---|---|
 | N1 - Project Setup and Package Management | Initialize a Node.js project, install npm packages, and configure npm scripts. | [View Activity](set1/n1-setup/) |
 | N2 - Modular Calculator | Perform mathematical operations using custom modules and command-line arguments. | [View Activity](set1/n2-calculator/) |
-| N3 - File Manager | Manage text files using fs and path modules. | Pending |
+| N3 - File Manager with fs and path | Create, read, update, delete, and list text files using built-in Node.js modules. | [View Activity](set1/n3-file-manager/) |
 
 ## Set 2 – Node.js Server and API Development
 
