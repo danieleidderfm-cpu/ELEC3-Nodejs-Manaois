@@ -60,11 +60,11 @@ cd ../..
 ### N2 - Modular Calculator
 
 ```bash
-node set1/n2-calculator/index.js add 12 8
-node set1/n2-calculator/index.js subtract 12 8
-node set1/n2-calculator/index.js multiply 12 8
-node set1/n2-calculator/index.js divide 12 8
-node set1/n2-calculator/index.js average 12 8
+node set1/n2-calculator/index.js add 20 4
+node set1/n2-calculator/index.js subtract 30 6
+node set1/n2-calculator/index.js multiply 4 6
+node set1/n2-calculator/index.js divide 120 5
+node set1/n2-calculator/index.js average 40 8
 ```
 
 Error handling tests:
