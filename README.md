@@ -1,4 +1,5 @@
-# ELEC 3 – Node.js Programming
+
+# ELEC 3 - Node.js Programming
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -9,18 +10,18 @@
 
 - **Name:** Daniel Eidderf P. Manaois
 - **Section:** IV-BSIT-A
-- **Course:** ELEC 3 – Node.js Programming
+- **Course:** ELEC 3 - Node.js Programming
 
 ## Overview
 
 This repository contains my self-paced learning activities
-for ELEC 3 – Node.js Programming.
+for ELEC 3 - Node.js Programming.
 
 The activities demonstrate package management, modular
 programming, file handling, HTTP servers, REST APIs,
 and middleware.
 
-## Set 1 – Node.js Fundamentals
+## Set 1 - Node.js Fundamentals
 
 | Activity | Description | Folder |
 |---|---|---|
@@ -28,7 +29,7 @@ and middleware.
 | N2 - Modular Calculator | Perform mathematical operations using custom modules and command-line arguments. | [View Activity](set1/n2-calculator/) |
 | N3 - File Manager with fs and path | Create, read, update, delete, and list text files using built-in Node.js modules. | [View Activity](set1/n3-file-manager/) |
 
-## Set 2 – Node.js Server and API Development
+## Set 2 - Node.js Server and API Development
 
 | Activity | Description | Folder |
 |---|---|---|
@@ -45,50 +46,137 @@ and middleware.
 
 ## How to Run
 
-Run the following commands from the repository root.
+Start each activity from the repository root.
 
-### N1 - Project Setup
+### N1 - Project Setup and Package Management
 
 ```bash
 cd set1/n1-setup
 npm install
 npm start
+cd ../..
 ```
 
 ### N2 - Modular Calculator
 
 ```bash
 node set1/n2-calculator/index.js add 12 8
+node set1/n2-calculator/index.js subtract 12 8
+node set1/n2-calculator/index.js multiply 12 8
+node set1/n2-calculator/index.js divide 12 8
+node set1/n2-calculator/index.js average 12 8
 ```
 
-### N3 - File Manager
+Error handling tests:
 
 ```bash
-node set1/n3-file-manager/index.js create notes.txt "Hello"
-node set1/n3-file-manager/index.js list
+node set1/n2-calculator/index.js divide 12 0
+node set1/n2-calculator/index.js power 12 8
 ```
 
-### N4 - Basic HTTP Server
+### N3 - File Manager with fs and path
 
 ```bash
-node set2/n4-server/index.js
+cd set1/n3-file-manager
+
+node index.js create example.txt "Hello Node.js"
+node index.js read example.txt
+node index.js update example.txt "Additional content"
+node index.js delete example.txt
+node index.js list
+
+cd ../..
 ```
 
-### N5 - REST-style API
-
-```bash
-node set2/n5-api/index.js
-```
-
-### N6 - Middleware and API Testing
-
-```bash
-node set2/n6-middleware/index.js
-```
+Use an unused filename when creating a new file.
 
 ## Program Screenshots
 
-Screenshots will be added as each activity is completed.
+### N1 - Project Setup and Package Management
+
+#### Node.js and npm Version Check
+
+![Version Check](set1/n1-setup/screenshots/01-version-check.png)
+
+#### npm Project Initialization
+
+![npm Initialization](set1/n1-setup/screenshots/02-npm-init.png)
+
+#### Package Configuration
+
+![Package JSON](set1/n1-setup/screenshots/03-package-json.png)
+
+#### Program Execution
+
+![npm Start](set1/n1-setup/screenshots/04-npm-start.png)
+
+#### Written Answers
+
+[View N1 Written Answers](set1/n1-setup/N1_answers.docx)
+
+---
+
+### N2 - Modular Calculator
+
+#### Addition
+
+![Addition](set1/n2-calculator/screenshots/01-addition.png)
+
+#### Subtraction
+
+![Subtraction](set1/n2-calculator/screenshots/02-subtraction.png)
+
+#### Multiplication
+
+![Multiplication](set1/n2-calculator/screenshots/03-multiplication.png)
+
+#### Division
+
+![Division](set1/n2-calculator/screenshots/04-division.png)
+
+#### Average
+
+![Average](set1/n2-calculator/screenshots/05-average.png)
+
+#### Division by Zero
+
+![Division by Zero](set1/n2-calculator/screenshots/06-division-by-zero.png)
+
+#### Unknown Operation
+
+![Unknown Operation](set1/n2-calculator/screenshots/07-unknown-operation.png)
+
+---
+
+### N3 - File Manager with fs and path
+
+#### Create Files
+
+![Create Files](set1/n3-file-manager/screenshots/01-create.png)
+
+#### Read File
+
+![Read File](set1/n3-file-manager/screenshots/03-read.png)
+
+#### Update File
+
+![Update File](set1/n3-file-manager/screenshots/04-update.png)
+
+#### Delete File
+
+![Delete File](set1/n3-file-manager/screenshots/02-delete.png)
+
+#### List Files
+
+![List Files](set1/n3-file-manager/screenshots/05-list.png)
+
+#### Missing File - Read Error
+
+![Read Error](set1/n3-file-manager/screenshots/06-read-error.png)
+
+#### Missing File - Delete Error
+
+![Delete Error](set1/n3-file-manager/screenshots/07-delete-error.png)
 
 ## Technologies Used
 
@@ -98,12 +186,12 @@ Screenshots will be added as each activity is completed.
 - Visual Studio Code
 - Git and GitHub
 
-## Learning Reference
+## Learning References
 
-- [Node.js Crash Course – Traversy Media](https://www.youtube.com/watch?v=32M1al-Y6Ag)
+- [Node.js Crash Course - Traversy Media](https://www.youtube.com/watch?v=32M1al-Y6Ag)
 - [Node.js Documentation](https://nodejs.org/docs/latest/api/)
 - [npm Documentation](https://docs.npmjs.com/)
 
 ---
 
-ELEC 3 – Node.js Programming | Academic Year 2026–2027
+ELEC 3 - Node.js Programming | Academic Year 2026-2027
