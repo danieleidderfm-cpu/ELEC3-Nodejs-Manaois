@@ -70,8 +70,8 @@ node set1/n2-calculator/index.js average 40 8
 Error handling tests:
 
 ```bash
-node set1/n2-calculator/index.js divide 12 0
-node set1/n2-calculator/index.js power 12 8
+node set1/n2-calculator/index.js divide 24 0
+node set1/n2-calculator/index.js power 20 4
 ```
 
 ### N3 - File Manager with fs and path
